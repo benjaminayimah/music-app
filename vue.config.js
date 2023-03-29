@@ -15,7 +15,7 @@ module.exports = {
       }
     },
     pwa: {
-      name: 'Music app | Spotify',
+      name: 'MySpotify',
       shortName: 'My Spotify',
       themeColor: '#17191D',
       msTileColor: '#ffffff',
