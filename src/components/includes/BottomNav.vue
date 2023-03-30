@@ -1,7 +1,7 @@
 <template>
     <nav>
         <media-player-mini />
-        <div class="flx hold" :class="[{ 'mb-16' : getiPhone}, { 'is-phone' : getPhone}]">
+        <div class="flx hold" :class="{ 'mb-16' : getiPhone}">
             <li>
                 <router-link to="/">
                     <svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 25.452 27.783">
@@ -38,7 +38,7 @@ import MediaPlayerMini from '../layouts/MediaPlayerMini.vue';
 export default {
   components: { MediaPlayerMini },
     name: 'BottomNav',
-    computed: mapGetters(['getiPhone', 'getPhone'])
+    computed: mapGetters(['getiPhone'])
 }
 </script>
 <style lang="scss" scoped>

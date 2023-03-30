@@ -16,6 +16,18 @@ body{
     --transform-scale2: scale(0.99);
     background-color: $primary-bg;
     font-size: 16px;
+    button,
+    textarea,
+    input,
+    select,
+    a{
+     -webkit-tap-highlight-color: transparent;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+      user-select: none;
+    }
     
 }
 .bg-img{
@@ -104,11 +116,6 @@ button[data-type="toggle"]{
 }
 .b-0{
     border: none;
-}
-.is-phone{
-    a{
-        cursor: none;
-    }
 }
 .sticky-top{
     position: sticky;
