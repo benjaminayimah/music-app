@@ -10,10 +10,8 @@ export default createStore({
       if( /iPhone|iPad /i.test(navigator.userAgent) ) {
         state.iphone = true
       }
-      if( /iPhone|iPad|android /i.test(navigator.userAgent) ) {
-        state.phone = true
-      }
-    },
+      ( /iPhone|iPad|android /i.test(navigator.userAgent) ) ? state.phone = true: state.phone = false
+    }
   },
   actions: {
   },

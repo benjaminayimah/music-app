@@ -12,6 +12,14 @@ export default {
   name: 'app',
   created() {
     this.$store.commit('computeInit')
+    window.addEventListener('resize', this.windowSize )
+  },
+  methods: {
+    windowSize() {
+      setTimeout(()=> {
+        this.$store.commit('computeInit')
+      }, 100)
+    }
   }
 }
 </script>
