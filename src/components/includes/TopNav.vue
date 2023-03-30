@@ -10,7 +10,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-
+h2{
+    text-transform: capitalize;
+}
 header{
     height: var(--topnav-height);
     margin-top: 32px;

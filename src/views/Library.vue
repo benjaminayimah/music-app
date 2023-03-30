@@ -1,6 +1,6 @@
 <template>
     <teleport to="#page_title">
-        Library
+        Your library
     </teleport>
     <teleport to="#top_nav">
         <library-top-nav />

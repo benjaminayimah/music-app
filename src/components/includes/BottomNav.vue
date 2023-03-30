@@ -26,7 +26,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 25 25">
                         <path class="library-icon path-fill" data-stroke="nostroke" d="M8,24V1a1,1,0,1,1,2,0V24a1,1,0,0,1-2,0ZM0,24V1A1,1,0,0,1,2,1V24a1,1,0,0,1-2,0Zm23.09-.587-10-22A1,1,0,0,1,14.91.586l10,22a1,1,0,1,1-1.821.827Z"/>
                     </svg>
-                    <span>Library</span>
+                    <span>library</span>
                 </router-link>
             </li>
         </div>
@@ -86,6 +86,7 @@ nav{
   span{
     color: $icon-gray;
     font-size: 0.76rem;
+    text-transform: capitalize;
   }
   svg {
     path[data-stroke="stroke"]  {
