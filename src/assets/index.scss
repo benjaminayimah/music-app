@@ -8,6 +8,14 @@ $dark-gray: #242527;
 
 body{
     margin: 0 16px;
+    &::-webkit-scrollbar {
+        display: none;
+        -ms-overflow-style: none; 
+        scrollbar-width: none; 
+    }
+}
+html{
+    
 }
 :root {
     --topnav-height: 60px;
