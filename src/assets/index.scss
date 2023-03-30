@@ -8,7 +8,7 @@ $dark-gray: #242527;
 $br-8: 8px;
 
 body{
-    margin: 0 16px;
+    margin: 0;
     &::-webkit-scrollbar {
         display: none;
         -ms-overflow-style: none; 
@@ -111,6 +111,13 @@ button[data-type="toggle"], a{
 .mr--4{
     margin-right: -4px;
 }
+.m-l-r-16{
+    margin: 0 16px;
+}
+.p-l-r-16{
+    padding: 0 16px;
+}
+
 .ai-c{
     align-items: center;
 }

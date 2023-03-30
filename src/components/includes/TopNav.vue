@@ -1,5 +1,5 @@
 <template>
-    <header class="flx ai-c gap-8 jc-sb">
+    <header class="flx ai-c gap-8 jc-sb p-l-r-16">
         <h2 id="page_title"></h2>
         <nav class="flx gap-4" id="top_nav"></nav>
     </header>

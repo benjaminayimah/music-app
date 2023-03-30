@@ -6,12 +6,12 @@
     <home-top-nav />
   </teleport>
   <div class="home">
-    <nav class="flx gap-8 ai-c sticky-top blur">
+    <nav class="flx gap-8 ai-c sticky-top blur p-l-r-16">
       <li><router-link to="/" class="flx ai-c">Music</router-link></li>
       <li><router-link to="/" class="flx ai-c">Podcasts</router-link></li>
       <li><router-link to="/" class="flx ai-c">Shows</router-link></li>
     </nav>
-    <main>
+    <main class="p-l-r-16">
       <home-section-1 />
     </main>
   </div>

@@ -5,7 +5,7 @@
     <teleport to="#top_nav">
         <library-top-nav />
     </teleport>
-    <div class="library">
+    <div class="library p-l-r-16">
       <h1>This is library page</h1>
     </div>
   </template>

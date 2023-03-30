@@ -2,7 +2,7 @@
   <teleport to="#page_title">
     Search
   </teleport>
-  <div class="search">
+  <div class="search p-l-r-16 blur">
     <div class="sticky-top ai-c flx">
       <button class="flx grow ai-c gap-8 br-6 jc-fs" data-type="toggle">
         <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 28.13 29.233">
@@ -21,6 +21,7 @@ export default {
 <style lang="scss" scoped>
 .search{
   height: 1000px;
+  background-color: rgba(10, 11, 13, 0.7);
 }
 button[data-type="toggle"]{
   height: 52px;
