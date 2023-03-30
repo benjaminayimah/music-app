@@ -1,7 +1,7 @@
 <template>
     {{ getPhone }}
     <nav>
-        <div class="flx hold" :class="{ 'mb-16' : getPhone}">
+        <div class="flx hold" :class="[{ 'mb-16' : getiPhone}, { 'is-phone' : getPhone}]">
             <li>
                 <router-link to="/">
                     <svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 25.452 27.783">
@@ -36,7 +36,7 @@
 import { mapGetters } from 'vuex';
 export default {
     name: 'BottomNav',
-    computed: mapGetters(['getPhone'])
+    computed: mapGetters(['getiPhone', 'getPhone'])
 }
 </script>
 <style lang="scss" scoped>

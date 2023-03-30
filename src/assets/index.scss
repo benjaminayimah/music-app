@@ -19,3 +19,8 @@ html, body{
 .flx{
     display: flex;
 }
+.is-phone{
+    a{
+        cursor: none;
+    }
+}
