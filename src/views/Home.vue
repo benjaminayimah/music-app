@@ -40,5 +40,6 @@ a{
   background-color: $secondary-bg;
   padding: 8px 16px;
   border-radius: 20px;
+  border: 1px solid rgba(69, 70, 75, 0.5);
 }
 </style>
