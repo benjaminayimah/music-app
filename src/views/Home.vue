@@ -6,7 +6,7 @@
     <home-top-nav />
   </teleport>
   <div class="home">
-    <nav class="flx gap-8 ai-c">
+    <nav class="flx gap-8 ai-c sticky-top">
       <li><router-link to="/" class="flx ai-c">Music</router-link></li>
       <li><router-link to="/" class="flx ai-c">Podcasts</router-link></li>
       <li><router-link to="/" class="flx ai-c">Shows</router-link></li>
@@ -28,8 +28,6 @@ export default {
 }
 nav{
   height: 50px;
-  position: sticky;
-  top: 0;
 }
 a{
   background-color: $secondary-bg;
