@@ -5,6 +5,7 @@ $secondary-bg: #27282B;
 $white: #fff;
 $black: #000;
 $dark-gray: #242527;
+$br-8: 8px;
 
 body{
     margin: 0 16px;
@@ -14,9 +15,6 @@ body{
         scrollbar-width: none; 
     }
 }
-html{
-    
-}
 :root {
     --topnav-height: 60px;
     --mini-media-img-height: 48px;
@@ -24,13 +22,16 @@ html{
     --transform-scale2: scale(0.99);
     background-color: $primary-bg;
     font-size: 16px;
-    
     -webkit-tap-highlight-color: transparent;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+a{
+    color: unset;
+    text-decoration: unset;
 }
 .bg-img{
     background-repeat: no-repeat;
@@ -60,7 +61,7 @@ button, li{
         transform: var(--transform-scale);
     }
 }
-button[data-type="toggle"]{
+button[data-type="toggle"], a{
     &:active {
         transform: var(--transform-scale2);
     }
@@ -70,6 +71,12 @@ button[data-type="toggle"]{
 }
 .flx{
     display: flex;
+}
+.grid{
+    display: grid;
+}
+.grid-col-2{
+    grid-template-columns: 1fr 1fr;
 }
 .jc-c{
     justify-content: center;
@@ -111,13 +118,16 @@ button[data-type="toggle"]{
     width: 100%;
 }
 .br-8{
-    border-radius: 8px;
+    border-radius: $br-8;
 }
 .br-6{
     border-radius: 6px;
 }
 .b-0{
     border: none;
+}
+.fw-500{
+    font-weight: 500;
 }
 .sticky-top{
     position: sticky;

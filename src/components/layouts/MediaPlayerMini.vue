@@ -2,7 +2,7 @@
     <section v-if="getCurrentPlayer.active">
         <div class="wrapper flx ai-c gap-8 grow">
             <div class="img-wraper bg-img" :style="{ backgroundImage: 'url('+getCurrentPlayer.player.image+')'}"></div>
-            <div class="title-wrapper flx jc-sb ai-c grow">
+            <div class="title-wrapper flx jc-sb ai-c grow fw-500">
                 <div class="flx column">
                     <h4>{{ getCurrentPlayer.player.trackname }}</h4>
                     <span>{{ getCurrentPlayer.player.artist }}</span>
@@ -63,7 +63,6 @@ section {
     height: inherit;
     span{
         font-size: 0.9rem;
-        font-weight: 500;
         color: $icon-gray;
     }
 }
