@@ -32,7 +32,7 @@ nav{
   top: 0;
 }
 a{
-  background-color: #35373B;
+  background-color: $secondary-bg;
   padding: 8px 16px;
   border-radius: 20px;
 }

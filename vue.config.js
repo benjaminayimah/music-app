@@ -17,7 +17,7 @@ module.exports = {
     pwa: {
       name: 'MySpotify',
       shortName: 'My Spotify',
-      themeColor: '#17191D',
+      themeColor: '#0A0B0D',
       msTileColor: '#ffffff',
       appleMobileWebAppCapable: 'yes',
       appleMobileWebAppStatusBarStyle: 'black'

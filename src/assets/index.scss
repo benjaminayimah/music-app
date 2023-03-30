@@ -1,5 +1,7 @@
 $primary-color: #1ED760;
 $icon-gray: #adafbb;
+$primary-bg: #0A0B0D;
+$secondary-bg: #27282B;
 $white: #fff;
 
 body{
@@ -8,9 +10,10 @@ body{
 :root {
     --topnav-height: 60px;
     --mini-media-img-height: 48px;
-    background-color: #17191D;
-    font-size: 16px;
     --transform-scale: scale(0.94);
+    background-color: $primary-bg;
+    font-size: 16px;
+    
 }
 .bg-img{
     background-repeat: no-repeat;
