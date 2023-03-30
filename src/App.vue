@@ -1,10 +1,20 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
+  <bottom-nav/>
 </template>
+<script>
+import BottomNav from './components/includes/BottomNav.vue'
+export default {
+  components: { BottomNav },
+  name: 'app',
+  created() {
+    this.$store.commit('computeInit')
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
@@ -17,10 +27,8 @@
 
 #nav {
   padding: 30px;
-
   a {
     font-weight: bold;
-
     &.router-link-exact-active {
       color: #1ED760;
     }

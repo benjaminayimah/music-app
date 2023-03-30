@@ -1,3 +1,21 @@
+$icon-gray: #adafbb;
+$white: #fff;
 html, body{
     background-color: #17191D;
+    font-size: 16px;
+}
+:root {
+    li {
+        list-style-type: none;
+        a {
+            text-decoration: none;
+            color: unset;
+        }
+    }
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.flx{
+    display: flex;
 }
