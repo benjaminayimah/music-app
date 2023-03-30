@@ -14,8 +14,10 @@
   </div>
 </template>
 <script>
+import WinTopMixin from '../mixins/WinTopMixin';
 export default {
-  name: 'Search'
+  name: 'Search',
+  mixins: [WinTopMixin]
 }
 </script>
 <style lang="scss" scoped>

@@ -9,11 +9,13 @@
       <h1>This is library page</h1>
     </div>
   </template>
-  <script>
+<script>
+import WinTopMixin from '../mixins/WinTopMixin';
 import LibraryTopNav from '../components/includes/LibraryTopNav.vue'
   export default {
   components: { LibraryTopNav },
-    name: 'Library'
+    name: 'Library',
+    mixins: [WinTopMixin]
   }
   </script>
   

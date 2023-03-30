@@ -18,12 +18,14 @@
 </template>
 
 <script>
+import WinTopMixin from '../mixins/WinTopMixin';
 import HomeSection1 from '../components/includes/HomeSection1.vue'
 import HomeTopNav from '../components/includes/HomeTopNav.vue'
 // @ is an alias to /src
 export default {
   components: { HomeTopNav, HomeSection1 },
   name: 'Home',
+  mixins: [WinTopMixin]
 }
 </script>
 <style lang="scss" scoped>
