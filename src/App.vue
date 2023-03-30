@@ -1,11 +1,13 @@
 <template>
+  <top-nav />
   <router-view/>
   <bottom-nav/>
 </template>
 <script>
 import BottomNav from './components/includes/BottomNav.vue'
+import TopNav from './components/includes/TopNav.vue'
 export default {
-  components: { BottomNav },
+  components: { BottomNav, TopNav },
   name: 'app',
   created() {
     this.$store.commit('computeInit')
@@ -26,17 +28,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #fff;
-}
-
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    &.router-link-exact-active {
-      color: #1ED760;
-    }
-  }
 }
 </style>

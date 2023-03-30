@@ -4,6 +4,7 @@ export default createStore({
   state: {
     iphone: false,
     phone: false,
+    currentPlayer: { active: true, player: {id: 1, trackname: 'Forever', artist: 'Lewis Capaldi', liked: false, image: require('@/assets/images/artist-1.png')} }
   },
   mutations: {
     computeInit(state) {
@@ -18,6 +19,7 @@ export default createStore({
   getters: {
     getiPhone: (state) => state.iphone,
     getPhone: (state) => state.phone,
+    getCurrentPlayer: (state) => state.currentPlayer
   },
   modules: {
   }

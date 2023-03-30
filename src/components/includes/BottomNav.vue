@@ -1,5 +1,6 @@
 <template>
     <nav>
+        <media-player-mini />
         <div class="flx hold" :class="[{ 'mb-16' : getiPhone}, { 'is-phone' : getPhone}]">
             <li>
                 <router-link to="/">
@@ -33,7 +34,9 @@
 </template>
 <script>
 import { mapGetters } from 'vuex';
+import MediaPlayerMini from '../layouts/MediaPlayerMini.vue';
 export default {
+  components: { MediaPlayerMini },
     name: 'BottomNav',
     computed: mapGetters(['getiPhone', 'getPhone'])
 }
@@ -66,7 +69,7 @@ nav{
             gap: 4px;
         }
         &:active {
-            transform: scale(0.94);
+            transform: var(--transform-scale);
         }
         &:hover {
             span {

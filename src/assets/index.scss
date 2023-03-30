@@ -1,26 +1,90 @@
+$primary-color: #1ED760;
 $icon-gray: #adafbb;
 $white: #fff;
-html, body{
-    background-color: #17191D;
-    font-size: 16px;
+
+body{
+    margin: 0 16px;
 }
 :root {
-    li {
-        list-style-type: none;
-        a {
-            text-decoration: none;
-            color: unset;
-        }
+    --topnav-height: 60px;
+    --mini-media-img-height: 48px;
+    background-color: #17191D;
+    font-size: 16px;
+    --transform-scale: scale(0.94);
+}
+.bg-img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-shrink: 0;
+  }
+h1,h2,h3{
+    margin: unset;
+}
+li {
+    list-style-type: none;
+    a {
+        text-decoration: none;
+        color: unset;
     }
 }
+button{
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    &:active {
+      transform: var(--transform-scale);
+    }
+  }
 .mb-16{
     margin-bottom: 16px;
 }
 .flx{
     display: flex;
 }
+.jc-c{
+    justify-content: center;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.grow{
+    flex-grow: 1;
+}
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+.gap-8{
+    gap: 8px;
+}
+.gap-4{
+    gap: 4px;
+}
+.ml--8{
+    margin-left: -8px;
+}
+.mr--8{
+    margin-right: -8px;
+}
+.mr--4{
+    margin-right: -4px;
+}
+.ai-c{
+    align-items: center;
+}
 .is-phone{
     a{
         cursor: none;
+    }
+}
+.liked{
+    path {
+        fill: $primary-color;
+        stroke: $primary-color;
     }
 }
