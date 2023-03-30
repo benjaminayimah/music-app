@@ -48,7 +48,7 @@ nav{
     
     .hold{
         height: 60px;
-        padding: 0 24px;
+        padding: 0 8%;
     }
     li {
         max-width: 33.33%;
