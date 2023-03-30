@@ -32,14 +32,19 @@
 import { mapGetters } from 'vuex';
 export default {
     name: 'MediaPlayerMini',
-    computed: mapGetters(['getCurrentPlayer'])
+    computed: {
+        ...mapGetters(['getCurrentPlayer']),
+        bgColor() {
+            return this.getCurrentPlayer.player.bgColor
+        }
+    },
 }
 </script>
 <style lang="scss" scoped>
 section {
     padding: 8px;
     border-radius: 8px;
-    background-color: #444;
+    background-color: v-bind(bgColor);
     margin: 8px;
 }
 .wrapper {

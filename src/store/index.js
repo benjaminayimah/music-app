@@ -4,7 +4,7 @@ export default createStore({
   state: {
     iphone: false,
     phone: false,
-    currentPlayer: { active: true, player: {id: 1, trackname: 'Forever', artist: 'Lewis Capaldi', liked: false, image: require('@/assets/images/artist-1.png')} }
+    currentPlayer: { active: true, player: {id: 1, trackname: 'Forever', artist: 'Lewis Capaldi', liked: false, image: require('@/assets/images/artist-1.png'), bgColor: '#02264A'} }
   },
   mutations: {
     computeInit(state) {
