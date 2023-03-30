@@ -26,7 +26,7 @@ button[data-type="toggle"]{
   height: 52px;
   background-color: $white;
   padding: 0 12px;
-  transition: 0.2s all;
+  transition: 0.1s all;
   span{
     color: $dark-gray;
     font-size: 1.1rem;
