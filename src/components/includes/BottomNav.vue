@@ -1,5 +1,4 @@
 <template>
-    {{ getPhone }}
     <nav>
         <div class="flx hold" :class="[{ 'mb-16' : getiPhone}, { 'is-phone' : getPhone}]">
             <li>
@@ -68,6 +67,17 @@ nav{
         }
         &:active {
             transform: scale(0.94);
+        }
+        &:hover {
+            span {
+                color: $white;
+            }
+            path[data-stroke="stroke"]  {
+                stroke: $white;
+            }
+            .path-fill{
+                fill: $white;
+            }
         }
   }
   span{
