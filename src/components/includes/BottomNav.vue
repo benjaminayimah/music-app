@@ -68,9 +68,6 @@ nav{
             flex-direction: column;
             gap: 4px;
         }
-        &:active {
-            transform: var(--transform-scale);
-        }
         &:hover {
             span {
                 color: $white;

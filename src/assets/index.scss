@@ -37,10 +37,12 @@ button{
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+}
+button, li{
     &:active {
-      transform: var(--transform-scale);
+        transform: var(--transform-scale);
     }
-  }
+}
 .mb-16{
     margin-bottom: 16px;
 }
