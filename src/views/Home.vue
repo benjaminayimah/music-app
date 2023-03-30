@@ -1,17 +1,24 @@
 <template>
+  <teleport to="#page_title">
+    Good morning
+  </teleport>
+  <teleport to="#top_nav">
+    <home-top-nav />
+  </teleport>
   <div class="home">
     <nav class="flx gap-8 ai-c">
-      <li><router-link to="/me" class="flx ai-c">Music</router-link></li>
-      <li><router-link to="/me" class="flx ai-c">Podcasts</router-link></li>
-      <li><router-link to="/me" class="flx ai-c">Shows</router-link></li>
-
+      <li><router-link to="/" class="flx ai-c">Music</router-link></li>
+      <li><router-link to="/" class="flx ai-c">Podcasts</router-link></li>
+      <li><router-link to="/" class="flx ai-c">Shows</router-link></li>
     </nav>
   </div>
 </template>
 
 <script>
+import HomeTopNav from '../components/includes/HomeTopNav.vue'
 // @ is an alias to /src
 export default {
+  components: { HomeTopNav },
   name: 'Home',
 }
 </script>

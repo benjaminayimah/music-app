@@ -18,7 +18,7 @@ body{
     background-size: cover;
     flex-shrink: 0;
   }
-h1,h2,h3{
+h1,h2,h3, h4{
     margin: unset;
 }
 li {
@@ -87,4 +87,8 @@ button{
         fill: $primary-color;
         stroke: $primary-color;
     }
+}
+#top_nav a{
+    height: 40px;
+    width: 40px;
 }

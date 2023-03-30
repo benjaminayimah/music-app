@@ -1,6 +1,19 @@
 <template>
+    <teleport to="#page_title">
+        Library
+    </teleport>
+    <teleport to="#top_nav">
+        <library-top-nav />
+    </teleport>
     <div class="library">
       <h1>This is library page</h1>
     </div>
   </template>
+  <script>
+import LibraryTopNav from '../components/includes/LibraryTopNav.vue'
+  export default {
+  components: { LibraryTopNav },
+    name: 'Library'
+  }
+  </script>
   

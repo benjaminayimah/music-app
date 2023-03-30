@@ -4,7 +4,7 @@
             <div class="img-wraper bg-img" :style="{ backgroundImage: 'url('+getCurrentPlayer.player.image+')'}"></div>
             <div class="title-wrapper flx jc-sb ai-c grow">
                 <div class="flx column">
-                    <h3>{{ getCurrentPlayer.player.trackname }}</h3>
+                    <h4>{{ getCurrentPlayer.player.trackname }}</h4>
                     <span>{{ getCurrentPlayer.player.artist }}</span>
                 </div>
                 <div class="flx">
@@ -25,7 +25,6 @@
                         <svg v-else xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 15.574 18.999">
                             <path d="M9,7.243V25.256a.475.475,0,0,0,.712.427l14.629-9.006a.5.5,0,0,0,0-.849L9.712,6.821A.47.47,0,0,0,9,7.243Z" transform="translate(-9 -6.751)" fill="#fff"/>
                         </svg>
-
                     </button>
                 </div>
             </div>
@@ -63,7 +62,7 @@ section {
 .title-wrapper{
     height: inherit;
     span{
-        font-size: 0.95rem;
+        font-size: 0.9rem;
         font-weight: 500;
         color: $icon-gray;
     }
