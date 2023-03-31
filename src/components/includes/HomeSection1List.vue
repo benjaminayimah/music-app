@@ -1,6 +1,6 @@
 <template>
     <router-link to="/" class="flx wrap br-8 scale-2">
-        <img :src="list.avatar" :alt="list.name">
+        <img :src="list.avatar" :alt="list.name" class="shrink-0">
         <div class="flx ai-c p-8">
             <h4>{{ list.name }}</h4>
         </div>

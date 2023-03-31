@@ -7,8 +7,6 @@ $black: #000;
 $dark-gray: #242527;
 $br-8: 8px;
 
-
-
 body{
     margin: 0;
     &::-webkit-scrollbar {
@@ -93,14 +91,23 @@ button{
 .mb-16{
     margin-bottom: 16px;
 }
+.fixed{
+    position: fixed;
+}
 .flx{
     display: flex;
+}
+.flx-end{
+    justify-content: flex-end;
 }
 .grid{
     display: grid;
 }
 .grid-col-2{
     grid-template-columns: 1fr 1fr;
+}
+.grid-col-3{
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .jc-c{
     justify-content: center;
@@ -111,8 +118,12 @@ button{
 .jc-fs{
     justify-content: flex-start;
 }
-.grow{
+
+.grow-1{
     flex-grow: 1;
+}
+.shrink-0{
+    flex-shrink: 0;
 }
 .column{
     flex-direction: column;
@@ -150,7 +161,17 @@ button{
 .capitalize {
     text-transform: capitalize;
 }
-
+.uppercase{
+    text-transform: uppercase;
+}
+.br-50{
+    border-radius: 50%;
+}
+.text-overflow-ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .ai-c{
     align-items: center;
 }

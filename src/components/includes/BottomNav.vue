@@ -1,7 +1,7 @@
 <template>
     <nav class="">
         <media-player-mini />
-        <div class="flx hold" :class="{ 'mb-16' : getiPhone}">
+        <div class="hold grid grid-col-3" :class="{ 'mb-16' : getiPhone}">
             <li>
                 <router-link to="/" class="scale-1">
                     <svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 25.452 27.783">
@@ -54,7 +54,6 @@ nav{
         padding: 0 8%;
     }
     li {
-        max-width: 33.33%;
         display: flex;
         flex-grow: 1;
         justify-content: center;
