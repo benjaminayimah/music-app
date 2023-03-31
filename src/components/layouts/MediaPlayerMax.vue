@@ -1,5 +1,5 @@
 <template>
-    <section id="media_player_max" class="fixed flx">
+    <section id="media_player_max" v-if="getCurrentPlayer.active" class="fixed flx">
         <div class="media-wrapper flx column grow-1 jc-sb">
             <div class="flx jc-sb max-media-head">
                 <div class="flx ai-c">
@@ -31,13 +31,6 @@ export default {
     name: 'MediaPlayerMax',
     computed: {
         ...mapGetters(['getCurrentPlayer']),
-        computePlayer() {
-            if (this.getCurrentPlayer.active && this.getCurrentPlayer.max) {
-                return true
-            }else {
-                return false
-            }
-        }
     },
 }
 </script>
@@ -47,7 +40,7 @@ section{
     background-color: $primary-bg;
     width: 100%;
     height: 100%;
-    transition: 0.5s all ease-in-out;
+    transition: 0.4s all ease-in-out;
 }
 
 .media-wrapper{

@@ -48,7 +48,7 @@ nav{
     width: 100%;
     left: 0;
     padding-top: 30px;
-    transition: 0.5s all ease-in-out;
+    transition: 0.4s all ease-in-out;
     background-image: linear-gradient(to bottom, rgba(23, 25, 29, 0), rgba(10, 11, 13, 0.8), rgba(10, 11, 13, 1));
     .hold{
         height: 58px;
