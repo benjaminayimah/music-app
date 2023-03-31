@@ -40,8 +40,6 @@ button{
   padding: 8px 16px;
   border-radius: 20px;
   border: 1px solid rgba(69, 70, 75, 0.5);
-  color: $white;
   height: 40px;
-  font-size: inherit;
 }
 </style>
