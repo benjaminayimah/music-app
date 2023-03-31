@@ -1,5 +1,5 @@
 <template>
-    <nav>
+    <nav class="">
         <media-player-mini />
         <div class="flx hold" :class="{ 'mb-16' : getiPhone}">
             <li>
@@ -47,7 +47,8 @@ nav{
     bottom: 0;
     width: 100%;
     left: 0;
-    
+    padding-top: 30px;
+    background-image: linear-gradient(to bottom, rgba(23, 25, 29, 0), rgba(10, 11, 13, 0.8), rgba(10, 11, 13, 1));
     .hold{
         height: 58px;
         padding: 0 8%;

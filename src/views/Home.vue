@@ -13,6 +13,7 @@
     </nav>
     <main class="p-l-r-16">
       <home-section-1 />
+      <home-section-2 />
     </main>
   </div>
 </template>
@@ -21,17 +22,15 @@
 import WinTopMixin from '../mixins/WinTopMixin';
 import HomeSection1 from '../components/includes/HomeSection1.vue'
 import HomeTopNav from '../components/includes/HomeTopNav.vue'
+import HomeSection2 from '../components/includes/HomeSection2.vue';
 // @ is an alias to /src
 export default {
-  components: { HomeTopNav, HomeSection1 },
+  components: { HomeTopNav, HomeSection1, HomeSection2 },
   name: 'Home',
   mixins: [WinTopMixin]
 }
 </script>
 <style lang="scss" scoped>
-.home{
-  height: 1000px;
-}
 nav{
   height: 50px;
   background-color: rgba(10, 11, 13, 0.7);
