@@ -18,8 +18,9 @@ body{
 :root {
     --topnav-height: 60px;
     --mini-media-img-height: 48px;
-    --transform-scale: scale(0.95);
-    --transform-scale2: scale(0.99);
+    --transform-scale1: scale(0.95);
+    --transform-scale2: scale(0.97);
+    --transform-scale3: scale(0.99);
     background-color: $primary-bg;
     font-size: 16px;
     -webkit-tap-highlight-color: transparent;
@@ -56,16 +57,31 @@ button{
     align-items: center;
     white-space: nowrap;
 }
-button, li{
+.scale-1 {
     &:active {
-        transform: var(--transform-scale);
+        transform: var(--transform-scale1);
     }
 }
-button[data-type="toggle"], a{
+.scale-2 {
     &:active {
         transform: var(--transform-scale2);
     }
 }
+.scale-3 {
+    &:active {
+        transform: var(--transform-scale3);
+    }
+}
+// button{
+//     &:active {
+//         transform: var(--transform-scale1);
+//     }
+// }
+// button[data-type="toggle"], a{
+//     &:active {
+//         transform: var(--transform-scale3);
+//     }
+// }
 .mb-16{
     margin-bottom: 16px;
 }

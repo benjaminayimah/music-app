@@ -1,5 +1,5 @@
 <template>
-    <router-link to="/" class="flx wrap br-8 gap-8">
+    <router-link to="/" class="flx wrap br-8 gap-8 scale-2">
         <img :src="list.avatar" :alt="list.name">
         <div class="flx ai-c">
             <h4>{{ list.name }}</h4>
@@ -26,7 +26,7 @@ img{
     border-top-left-radius:  $br-8;
     border-bottom-left-radius:  $br-8;
 }
-a {
+.scale-2{
     transition: 0.1s all;
 }
 </style>

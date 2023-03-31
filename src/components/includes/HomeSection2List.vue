@@ -1,5 +1,5 @@
 <template>
-    <router-link to="/" class="">
+    <router-link to="/" class="scale-3">
         
     </router-link>
 </template>

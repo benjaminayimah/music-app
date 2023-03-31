@@ -3,7 +3,7 @@
         <media-player-mini />
         <div class="flx hold" :class="{ 'mb-16' : getiPhone}">
             <li>
-                <router-link to="/">
+                <router-link to="/" class="scale-1">
                     <svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 25.452 27.783">
                         <path class="path-nofill" data-stroke="stroke" d="M-7915.228-5106.3v-18.392l12.111-7.391,11.341,7.391v18.392h-8.878v-9.333h-5.977v9.333Z" transform="translate(7916.228 5133.086)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
                     </svg>
@@ -11,7 +11,7 @@
                 </router-link>
             </li>
             <li>
-                <router-link to="/search">
+                <router-link to="/search" class="scale-1">
                     <svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 25.5 26.5">
                     <g  transform="translate(7787 5132)">
                         <path class="path-fill" data-stroke="nostroke" d="M23.741,26.15l-5.725-6.679a11,11,0,1,1,1.422-1.415l5.822,6.792a1,1,0,1,1-1.518,1.3ZM2,11a9,9,0,1,0,9-9A9.01,9.01,0,0,0,2,11Z" transform="translate(-7787 -5132)"/>
@@ -22,7 +22,7 @@
                 </router-link>
             </li>
             <li>
-                <router-link to="/library">
+                <router-link to="/library" class="scale-1">
                     <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 25 25">
                         <path class="library-icon path-fill" data-stroke="nostroke" d="M8,24V1a1,1,0,1,1,2,0V24a1,1,0,0,1-2,0ZM0,24V1A1,1,0,0,1,2,1V24a1,1,0,0,1-2,0Zm23.09-.587-10-22A1,1,0,0,1,14.91.586l10,22a1,1,0,1,1-1.821.827Z"/>
                     </svg>
