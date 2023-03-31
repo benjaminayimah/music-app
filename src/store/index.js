@@ -7,7 +7,7 @@ export default createStore({
       {id: 1, name: 'music'},
       {id: 2, name: 'podcasts & shows'}
     ],
-    currentPlayer: { active: true, max: true, play: false, player: {id: 1, trackname: 'Forever', artist: 'Lewis Capaldi', artist_id: 1, liked: false, image: require('@/assets/images/artist-1.png'), bgColor: '#02264A'} },
+    currentPlayer: { active: true, max: false, play: false, player: {id: 1, trackname: 'Forever', artist: 'Lewis Capaldi', artist_id: 1, liked: false, image: require('@/assets/images/artist-1.png'), bgColor: '#02264A'} },
     artists: [
       {id: 1, name: 'Lewis Capaldi', avatar: require('@/assets/images/lewis_capaldi.png'), stream: 29938 },
       {id: 2, name: 'Zoe Wees', avatar: require('@/assets/images/zoe_wees.png'), stream: 10923 },
@@ -40,7 +40,15 @@ export default createStore({
       }
     },
     toggleMediaPlayer(state) {
-      state.currentPlayer.max = !state.currentPlayer.max
+      if (state.currentPlayer.max) {
+        state.currentPlayer.max = false
+        document.body.classList.remove('max')
+        document.body.classList.add('min')
+      }else {
+        state.currentPlayer.max = true
+        document.body.classList.remove('min')
+        document.body.classList.add('max')
+      }
     }
   },
   actions: {

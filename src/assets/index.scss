@@ -211,3 +211,17 @@ button{
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
 }
+
+.min{
+    #media_player_max {
+        bottom: -100%;
+    }
+}
+.max{
+    #media_player_max {
+        bottom: 0;
+    }
+    #bottom_nav {
+        bottom: -185px;
+    }
+}

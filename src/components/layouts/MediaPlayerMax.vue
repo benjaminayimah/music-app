@@ -1,5 +1,5 @@
 <template>
-    <section v-if="computePlayer" class="fixed flx">
+    <section id="media_player_max" class="fixed flx">
         <div class="media-wrapper flx column grow-1 jc-sb">
             <div class="flx jc-sb max-media-head">
                 <div class="flx ai-c">
@@ -45,10 +45,11 @@ export default {
 $height: 50px;
 section{
     background-color: $primary-bg;
-    bottom: 0;
     width: 100%;
     height: 100%;
+    transition: 0.5s all ease-in-out;
 }
+
 .media-wrapper{
     padding: 24px 16px;
 }
