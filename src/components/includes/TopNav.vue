@@ -15,7 +15,6 @@ h2{
 }
 header{
     height: var(--topnav-height);
-    margin-top: 32px;
 }
 nav{
     margin-right: -8px;
