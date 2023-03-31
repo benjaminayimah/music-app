@@ -1,16 +1,13 @@
 $primary-color: #1ED760;
-$icon-gray: #adafbb;
+$icon-gray: #b3b6b9;
 $primary-bg: #0A0B0D;
 $secondary-bg: #27282B;
 $white: #fff;
 $black: #000;
 $dark-gray: #242527;
-$gray: #b3b6b9;
 $br-8: 8px;
 
-.gray{
-    color: $gray;
-}
+
 
 body{
     margin: 0;
@@ -171,6 +168,9 @@ button{
 }
 .fw-500{
     font-weight: 500;
+}
+.fs-14{
+    font-size: 0.9rem;
 }
 .sticky-top{
     position: sticky;

@@ -5,7 +5,7 @@
             <div class="title-wrapper flx jc-sb ai-c grow fw-500">
                 <div class="flx column">
                     <h4>{{ getCurrentPlayer.player.trackname }}</h4>
-                    <span>{{ getCurrentPlayer.player.artist }}</span>
+                    <span class="fs-14">{{ getCurrentPlayer.player.artist }}</span>
                 </div>
                 <div class="flx">
                     <button class="scale-1">
@@ -62,7 +62,6 @@ section {
 .title-wrapper{
     height: inherit;
     span{
-        font-size: 0.9rem;
         color: $icon-gray;
     }
 }
