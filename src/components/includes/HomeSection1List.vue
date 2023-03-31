@@ -1,7 +1,7 @@
 <template>
-    <router-link to="/" class="flx wrap br-8 gap-8 scale-2">
+    <router-link to="/" class="flx wrap br-8 scale-2">
         <img :src="list.avatar" :alt="list.name">
-        <div class="flx ai-c">
+        <div class="flx ai-c p-8">
             <h4>{{ list.name }}</h4>
         </div>
     </router-link>

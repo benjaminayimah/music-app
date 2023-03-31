@@ -11,10 +11,11 @@ export default createStore({
       {id: 4, name: 'Imagine Dragons', avatar: require('@/assets/images/imagine_dragons.png'), stream: 192792 },
       {id: 5, name: 'James Arthur', avatar: require('@/assets/images/james_arthur.png'), stream: 825730 },
       {id: 6, name: 'Black Sherif', avatar: require('@/assets/images/black_sherif.png'), stream: 9738310 },
-
-
-
-
+    ],
+    discover: [
+      {id: 1, title: 'for you', playlist: []},
+      {id: 2, title: 'new releases', playlist: []},
+      {id: 3, title: 'rise and shine', playlist: []},
 
     ]
   },
@@ -40,7 +41,8 @@ export default createStore({
   getters: {
     getiPhone: (state) => state.iphone,
     getCurrentPlayer: (state) => state.currentPlayer,
-    getArtists: (state) => state.artists
+    getArtists: (state) => state.artists,
+    getDiscover: (state) => state.discover
   },
   modules: {
   }
