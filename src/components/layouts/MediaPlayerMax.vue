@@ -38,6 +38,10 @@
                         </svg>
                     </button>
                 </div>
+                <audio id="myAudio">
+                    <source src="../../assets/audio/Zoe_Wees_-_Control.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
                 <div class="flx jc-sb">
                     <button class="scale-1">
                         <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18.19 18.545">
@@ -54,7 +58,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" height="66" viewBox="0 0 66 66">
                             <g id="pause" transform="translate(2 2)">
                                 <circle cx="33" cy="33" r="33" transform="translate(-2 -2)" fill="#fff"/>
-                                <path v-if="!getCurrentPlayer.play" d="M10859.463,5352.107a1,1,0,0,1-1-1v-23a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v23a1,1,0,0,1-1,1Zm-13,0a1,1,0,0,1-1-1v-23a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v23a1,1,0,0,1-1,1Z" transform="translate(-10824 -5309)"/>
+                                <path v-if="getCurrentPlayer.play" d="M10859.463,5352.107a1,1,0,0,1-1-1v-23a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v23a1,1,0,0,1-1,1Zm-13,0a1,1,0,0,1-1-1v-23a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v23a1,1,0,0,1-1,1Z" transform="translate(-10824 -5309)"/>
                                 <path v-else d="M9,7.416V31.8a.643.643,0,0,0,.964.578l19.8-12.189a.677.677,0,0,0,0-1.149L9.964,6.845A.636.636,0,0,0,9,7.416Z" transform="translate(12.975 11.024)"/>
                             </g>
                         </svg>

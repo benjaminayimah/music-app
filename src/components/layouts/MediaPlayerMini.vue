@@ -22,7 +22,7 @@
                     </svg>
                 </button>
                 <button class="scale-1" @click="$store.commit('playPause')">
-                    <svg v-if="!getCurrentPlayer.play" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 15.2 18.999">
+                    <svg v-if="getCurrentPlayer.play" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 15.2 18.999">
                         <path d="M8249.53,5247.25a.477.477,0,0,1-.481-.474v-18.051a.477.477,0,0,1,.481-.474h3.788a.477.477,0,0,1,.48.474v18.051a.477.477,0,0,1-.48.474Zm-10.451,0a.478.478,0,0,1-.48-.474v-18.051a.478.478,0,0,1,.48-.474h3.789a.477.477,0,0,1,.48.474v18.051a.477.477,0,0,1-.48.474Z" transform="translate(-8238.599 -5228.25)" fill="#fff"/>
                     </svg>
                     <svg v-else xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 15.574 18.999">
