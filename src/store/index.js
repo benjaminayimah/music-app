@@ -5,7 +5,7 @@ export default createStore({
     iphone: false,
     categories: [
       {id: 1, name: 'music'},
-      {id: 2, name: 'podcasts & shows'},
+      {id: 2, name: 'podcasts & shows'}
     ],
     currentPlayer: { active: true, max: false, play: false, player: {id: 1, trackname: 'Forever', artist: 'Lewis Capaldi', artist_id: 1, liked: false, image: require('@/assets/images/artist-1.png'), bgColor: '#02264A'} },
     artists: [
