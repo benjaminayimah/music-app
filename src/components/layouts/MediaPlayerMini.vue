@@ -6,7 +6,7 @@
                 <div class="title-wrapper flx  ai-c grow-1 fw-500">
                     <div class="flx column">
                         <h4>{{ getCurrentPlayer.player.trackname }}</h4>
-                        <span class="fs-14">{{ getCurrentPlayer.player.artist }}</span>
+                        <span class="fs-14 gray">{{ getCurrentPlayer.player.artist }}</span>
                     </div>
                 </div>
             </div>
@@ -63,9 +63,6 @@ section {
 }
 .title-wrapper{
     height: inherit;
-    span{
-        color: $icon-gray;
-    }
 }
 button {
     height: var(--mini-media-img-height);

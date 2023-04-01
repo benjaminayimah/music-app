@@ -7,6 +7,9 @@ $black: #000;
 $dark-gray: #242527;
 $br-8: 8px;
 
+.gray{
+    color: $icon-gray;
+}
 body{
     margin: 0;
     &::-webkit-scrollbar {
@@ -164,9 +167,6 @@ button{
 .uppercase{
     text-transform: uppercase;
 }
-.br-50{
-    border-radius: 50%;
-}
 .text-overflow-ellipsis{
     white-space: nowrap;
     overflow: hidden;
@@ -178,12 +178,22 @@ button{
 .w-100{
     width: 100%;
 }
-.br-8{
-    border-radius: $br-8;
-}
 .br-6{
     border-radius: 6px;
 }
+.br-8{
+    border-radius: $br-8;
+}
+.br-10{
+    border-radius: 10px;
+}
+.br-16{
+    border-radius: 16px;
+}
+.br-50{
+    border-radius: 50%;
+}
+
 .b-0{
     border: none;
 }
