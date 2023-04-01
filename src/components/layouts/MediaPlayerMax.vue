@@ -139,7 +139,6 @@ button{
 button[data-type=top-menu]{
     height: $height;
     width: $height;
-    background-color: transparent;
 }
 button[data-type=media] {
     height: var(--mini-media-img-height);

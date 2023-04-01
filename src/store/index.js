@@ -17,9 +17,9 @@ export default createStore({
       {id: 6, name: 'Black Sherif', avatar: require('@/assets/images/black_sherif.png'), stream: 9738310 },
     ],
     discover: [
-      {id: 1, title: 'for you', category: 'music', playlist: []},
-      {id: 2, title: 'new releases', category: 'podcast', playlist: []},
-      {id: 3, title: 'rise and shine', category: 'music', playlist: []},
+      {id: 1, title: 'for you', category: 'music', caption: 'Lewis Capaldi Radio', type: 'Playlst', image: require('@/assets/images/lewis_capaldi.png')},
+      {id: 2, title: 'new releases', category: 'music', caption: 'Taylor Swift Collections', type: 'Playlst', image: require('@/assets/images/taylor_swift.png')},
+      {id: 3, title: 'rise and shine', category: 'music', caption: 'James Arthur Album', type: 'Album', image: require('@/assets/images/james_arthur.png')},
 
     ]
   },
