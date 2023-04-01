@@ -18,8 +18,8 @@ export default createStore({
     ],
     discover: [
       {id: 3, title: 'rise and shine', category: 'music', caption: 'James Arthur Album', type: 'Album', image: require('@/assets/images/james_arthur.png')},
-      {id: 1, title: 'for you', category: 'music', caption: 'Lewis Capaldi Radio', type: 'Playlst', image: require('@/assets/images/lewis_capaldi.png')},
       {id: 2, title: 'new releases', category: 'music', caption: 'Black Sherif Collections', type: 'Playlst', image: require('@/assets/images/black_sherif.png')},
+      {id: 1, title: 'for you', category: 'music', caption: 'Lewis Capaldi Radio', type: 'Playlst', image: require('@/assets/images/lewis_capaldi.png')},
     ]
   },
   mutations: {
