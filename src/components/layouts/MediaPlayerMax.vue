@@ -38,10 +38,10 @@
                         </svg>
                     </button>
                 </div>
-                <audio id="myAudio">
+                <!-- <audio id="myAudio">
                     <source src="../../assets/audio/Zoe_Wees_-_Control.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
-                </audio>
+                </audio> -->
                 <div class="flx jc-sb">
                     <button class="scale-1">
                         <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18.19 18.545">
