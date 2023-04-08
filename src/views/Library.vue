@@ -18,4 +18,9 @@ import LibraryTopNav from '../components/includes/LibraryTopNav.vue'
     mixins: [WinTopMixin]
   }
   </script>
+  <style lang="scss" scoped>
+  .library{
+    height: 1000px;
+  }
+  </style>
   

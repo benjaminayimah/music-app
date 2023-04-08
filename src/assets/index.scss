@@ -235,3 +235,26 @@ button{
         bottom: -185px;
     }
 }
+@media screen and (min-width: 500px){
+    :root {
+        background-color: $white;
+        --mob-width: 430px;
+    }
+    body{
+        display: flex;
+        justify-content: center; 
+        position: relative;  
+    }
+    #app{
+        background-color: $primary-bg;
+        width: var(--mob-width);
+    }
+    #bottom_nav{
+        width: var(--mob-width);
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    #media_player_max{
+        width: var(--mob-width);
+    }
+}

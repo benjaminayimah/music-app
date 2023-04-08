@@ -33,12 +33,12 @@ export default createStore({
       state.currentPlayer.player.liked = !state.currentPlayer.player.liked
     },
     playPause(state) {
-      var myAudio = document.getElementById("myAudio");
+      // var myAudio = document.getElementById("myAudio");
       if (state.currentPlayer.play) {
-        myAudio.pause()
+        // myAudio.pause()
         state.currentPlayer.play = false
       } else {
-        myAudio.play()
+        // myAudio.play()
         state.currentPlayer.play = true
       }
     },
